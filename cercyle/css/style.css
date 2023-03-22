@@ -1,0 +1,320 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+.container{
+    height:60vh;
+    background:#2e3b38;
+    font-family:sans-serif;
+}
+
+.main{
+    height:100vh;
+    width:37%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-80% , -40%);
+}
+.main::before {
+    content:'';
+    width:100%;
+    position:absolute;
+    top:20%;
+    left:90%;
+    transform:translate(-30% , -40%);
+    height:60%;
+    background:white;
+    z-index:-1;
+
+}
+
+img{
+    width:100%;
+}
+
+.text{
+    background:white;
+    width:38%;
+    height:55%;
+    padding:35px;
+    position:absolute;
+    bottom:200px;
+    right:120px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+.text h1{
+    font-size:60px;
+
+}
+.text p{
+padding-top:25px;
+padding-bottom:25px;
+margin-bottom:20px;
+}
+
+.text a{
+text-decoration:none;
+background:#2e3b38;
+padding:14px;
+color:white;
+border-radius:20px;
+letter-spacing:3px;
+transition:.7s;
+}
+.text a:hover{
+background:white;
+color:black;
+border:2px solid black;
+}
+
+
+
+@media all and (min-width: 972px){
+
+
+.main{
+    height:100vh;
+    width:37%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-80% , -40%);
+}
+.main::before {
+    content:'';
+    width:100%;
+    position:absolute;
+    top:20%;
+    left:90%;
+    transform:translate(-30% , -40%);
+    height:60%;
+    background:white;
+    z-index:-1;
+
+}
+
+img{
+    width:100%;
+}
+
+.text{
+    background:white;
+    width:38%;
+    height:65%;
+    padding:35px;
+    position:absolute;
+    bottom:200px;
+    right:120px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+.text h1{
+    font-size:60px;
+
+}
+.text p{
+padding-top:25px;
+padding-bottom:25px;
+
+margin-bottom:20px;
+}
+
+.text a{
+text-decoration:none;
+background:#2e3b38;
+padding:14px;
+color:white;
+border-radius:20px;
+letter-spacing:3px;
+transition:.7s;
+}
+.text a:hover{
+background:white;
+color:black;
+border:2px solid black;
+}
+
+}
+
+
+@media all and (max-width: 971px){
+
+.text{
+background:white;
+width:48%;
+height:50%;
+padding:25px;
+position:absolute;
+bottom:90px;
+right:120px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+.text h1{
+font-size:40px;
+} 
+
+.text a{
+padding:10px;
+letter-spacing:2px;
+transition:.7s;
+font-size:14px;
+}
+
+}
+@media all and (max-width: 732px){
+
+.container{
+    height:66vh;
+}
+
+.main{
+    width:47%;
+    top:55%;
+    left:60%;
+}
+
+.main::before {
+    top:20%;
+    left:60%;
+    height:60%;
+}
+
+.text{
+    width:50%;
+    height:45%;
+    bottom:0px;
+    right:140px;
+}
+.text h1{
+font-size:20px;
+
+}
+.text p{
+font-size:14px;
+padding-top:20px;
+padding-bottom:16px;}
+
+.text a{
+padding:7px;
+letter-spacing:1.4px;
+transition:.7s;
+font-size:10px;
+}
+}
+
+@media all and (max-width:556px){
+
+.container{
+    height:70vh;
+}
+
+.main{
+    height:100vh;
+    width:57%;
+    top:45%;
+    left:64%;
+    transform:translate(-80% , -40%);
+}
+
+.main::before {
+    top:27%;
+    left:60%;
+    transform:translate(-30% , -40%);
+    height:75%;
+}
+
+.text{
+    width:58%;
+    height:45%;
+    padding:35px;
+    bottom:80px;
+    right:120px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+.text h1{
+    font-size:24px;
+
+}
+
+}
+
+@media all and (max-width:433px){
+
+.main{
+    height:100vh;
+    width:67%;
+}
+
+.main::before {
+    left:54%;
+}
+
+.text{
+    width:60%;
+    height:47%;
+    padding:25px;
+    bottom:80px;
+}
+.text h1{
+    font-size:22px;
+
+}
+.text p{
+    font-size:13px;
+
+}
+
+}
+
+
+
+@media all and (max-width:347px){
+
+.main{
+    width:85%;
+    top:60%;
+    left:50%;
+    transform:translate(-50% , -50%);
+}
+.main::before {
+    width:100%;
+    top:20%;
+    left:30%;
+    height:70%;
+}
+
+
+.text{
+    width:80%;
+    height:40%;
+    padding:15px;
+    bottom:60px;
+    right:10px;
+
+
+}
+.text h1{
+    font-size:20px;
+
+}
+.text p{
+    font-size:13px;
+}
+
+.text a{
+padding:11px;
+letter-spacing:2px;
+
+}
+
+}
